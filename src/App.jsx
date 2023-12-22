@@ -24,11 +24,11 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen bg-lime-950 p-2 sm:p-10  ">
-        <header className="text-center mb-4">
-          <h1 className="text-slate-100 text-4xl mb-2">AudioPlayer</h1>
-          <span className="text-[orangered]">By Lezardon</span>
-        </header>
+      <header className="fixed top-0 left-0 pb-2 bg-lime-950  w-full text-center ">
+        <h1 className="text-slate-100 text-4xl mb-4">AudioPlayer</h1>
+        <span className="text-[orangered]  ">By Lezardon</span>
+      </header>
+      <div className="min-h-screen pt-24 bg-lime-950 px-2 sm:p-10  ">
         {/* Reload Button */}
         {songsSlice.songs && <Reload />}
         {!songsSlice.songs && <FileUploader handleFile={handleFile} />}

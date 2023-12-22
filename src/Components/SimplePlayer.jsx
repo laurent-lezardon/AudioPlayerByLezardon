@@ -36,7 +36,7 @@ export default function SimplePlayer() {
     }
   }, [songsSlice.play, songsSlice.currentId]);
   return (
-    <div className="max-w-4xl">
+    <div className="max-w-4xl ">
       <audio
         src={
           songsSlice.songs &&

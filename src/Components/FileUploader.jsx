@@ -18,7 +18,7 @@ export const FileUploader = ({ handleFile }) => {
   return (
     <>
       <button
-        className="bg-lime-300 h-[250px] w-[250px] border border-lime-900 rounded-full block mx-auto mt-10 hover:bg-lime-500 hover:border-4"
+        className="bg-lime-300 h-[250px] w-[250px] border border-lime-900 rounded-full block mx-auto mt-20 hover:bg-lime-500 hover:border-4"
         onClick={handleClick}
       >
         Upload mp3 files !

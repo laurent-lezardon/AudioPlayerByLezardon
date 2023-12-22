@@ -13,7 +13,7 @@ export default function Playlist() {
     setShowModal(false);
   };
   return (
-    <div className="max-w-4xl mx-auto border  bg-lime-100 rounded-2xl">
+    <div className="max-w-4xl mx-auto border   bg-lime-100 rounded-2xl">
       <ul className="p-4">
         {songsSlice.songs &&
           songsSlice.songs.map((song) => (
