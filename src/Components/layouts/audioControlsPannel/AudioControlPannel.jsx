@@ -22,7 +22,7 @@ export default function AudioControlPannel() {
   console.log("currentSongNumber", currentSongNumber);
   return (
     <div className="fixed w-full  bottom-0  bg-lime-100/65 border border-lime-900 p-2 sm:p-4 hover:bg-lime-100/95 ">
-      <div className="flex mx-2 mb-2 justify-between text-xs sm:text-base font-bold">
+      <div className="flex mx-2 mb-2 justify-between text-xs sm:text-lg font-bold">
         <p className="text-lime-950">
           {currentSongObj && currentSongObj.file.name}
         </p>

@@ -33,12 +33,12 @@ export default function ProgressBar({ index, songsLength }) {
 
   return (
     <div className="mx-2 max-w-[800px] flex gap-2 items-center sm:mx-auto">
-      <span className="text-xs font-bold">
+      <span className="text-xs sm:text-base font-bold">
         {displaySongTime(progressSlice.totalDuration)}
       </span>
       <div
         id="progress-bar"
-        className="grow  border border-lime-600 min-w-[150px] h-2 rounded cursor-pointer"
+        className="grow  border border-lime-600 min-w-[150px] h-2 sm:h-3 rounded cursor-pointer"
         onClick={handleProgressClick}
       >
         <div className="bg-lime-200  h-full  rounded">
@@ -49,7 +49,7 @@ export default function ProgressBar({ index, songsLength }) {
         </div>
       </div>
 
-      <span className="text-xs font-bold">
+      <span className="text-xs sm:text-base font-bold">
         {displaySongTime(progressSlice.current)}
       </span>
     </div>

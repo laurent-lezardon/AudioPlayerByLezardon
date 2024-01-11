@@ -36,7 +36,7 @@ export default function SongTags({ songFile, closeModal }) {
         onClick={(e) => {
           e.stopPropagation();
         }}
-        className="w-full p-2 sm:min-w-[500px]  relative rounded sm:p-7 bg-lime-950/10"
+        className="w-full p-2 sm:min-w-[500px] sm:max-w-[600px] relative rounded sm:p-7 bg-lime-950/10"
       >
         <h2 className="my-4 text-lime-200">The Tags we ve found :</h2>
         <p className=" mb-4 text-lg bg-lime-500/40 text-lime-200 py-1 text-center rounded-full ">

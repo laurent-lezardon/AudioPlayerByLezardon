@@ -18,6 +18,9 @@ const songsSlice = createSlice({
     togglePlayPause: (state) => {
       state.play = !state.play;
     },
+    stopPlay: (state) => {
+      state.play = false;
+    },
     nextSong: (state, action) => {
       state.currentId = state.songs[action.payload].id;
     },
@@ -35,5 +38,6 @@ export const {
   deleteSongs,
   nextSong,
   selectSong,
+  stopPlay,
 } = songsSlice.actions;
 export default songsSlice.reducer;
