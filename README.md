@@ -15,5 +15,4 @@ Un appui sur pause effectue un stop
 
 ### `lezardon`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://laurent-lezardon.github.io/AudioPlayerByLezardon/](https://laurent-lezardon.github.io/AudioPlayerByLezardon/) to view it in your browser.
